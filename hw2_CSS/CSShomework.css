@@ -1,0 +1,222 @@
+/* Ignore following classes */
+
+* { 
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeee;
+}
+
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+#eagle_img {
+  background-color: white;
+  width: 70%;
+  height: 30%;
+  margin-top: 100px;
+  margin-left: 25px;  
+  margin-right: 25px;  
+  
+  
+}
+
+.insideborder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: 33.3%;
+}
+
+.sixvert{
+  height: 16.66666666%
+}
+
+.threehoriz {
+  width: 33.33%;
+}
+.quartervert {
+  height: 25%;
+}
+.upper_container {
+  display: flex;
+  height: 55.555555%;
+  justify-content: flex-start;
+  row-gap: 10px;
+  column-gap: 20px;
+  
+  align-items: flex-start | center | flex-end;
+
+}
+.lefthoriz {
+  display: flex;
+  
+  flex-direction: row;
+}
+item1 {
+  background-color: white;
+  flex-grow: 2; 
+}
+item2 {
+  background-color: white;
+  flex-grow: 1; 
+}
+item3 {
+  background-color: white;
+  flex-grow: 2; 
+}
+.blank {
+  background-color: white;
+  width: 37px;
+}
+.little_box2 {
+  height: 33.4px;
+  width: 74px;
+  background-color: white;;
+  flex-grow: 1; 
+}
+.little_box3 {
+  height: 66.8px;
+  width: 74px;
+  background-color: #004C98;;
+  flex-grow: 1; 
+}
+.little_box1 {
+  height: 66.8px;
+  width: 74px;
+  background-color: #004C98;;
+  flex-grow: 1; 
+}
+
+.upperrighthoriz {
+  display: flex;
+  width: 62.9629%;
+  float: right;
+  flex-direction: column;
+
+}
+.stripe {
+  flex-grow: 1;
+}
+
+.lower {
+  height: 44.44444445%;
+}
+
+.skinny {
+  height: 17.5%;
+}
+
+.fat {
+  height: 30%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+/* Colors/ Feel free to add your own! */
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.luxlightblue {
+  background-color: #00A3E0;
+}
+
+.thaired {
+  background-color: #A51931;
+}
+
+.thaiblue{
+  background-color: #2D2A4A;
+}
+
+.romaniablue {
+  background-color: #002B7F;
+}
+.romaniared {
+  background-color: #CE1126;
+}
+
+.romaniayellow {
+  background-color: #FCD116;
+}
+
+.mexgreen {
+  background-color: #006847;
+}
+
+.mexred {
+  background-color: #CE1125;
+}
+.greeceblue {
+  background-color: #004C98;
+}
